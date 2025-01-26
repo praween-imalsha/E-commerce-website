@@ -101,7 +101,7 @@
       <li><a href="AdminProduct.jsp">Manage Products</a></li>
       <li><a href="manage_categories.jsp">Manage Categories</a></li>
       <li><a href="manage_orders.jsp">View Orders</a></li>
-      <li><a href="View_users.jsp">Manage Users</a></li>
+      <li><a href="userList.jsp">Manage Users</a></li>
     </ul>
     <div class="logout-btn">
       <a href="index.jsp">Logout</a>

@@ -81,6 +81,8 @@
     <%
         // Retrieve users list from request attribute
         List<UserDTO> users = (List<UserDTO>) request.getAttribute("users");
+
+        // Check if users are available and display accordingly
         if (users != null && !users.isEmpty()) {
     %>
     <table class="table table-striped table-bordered">
@@ -96,6 +98,7 @@
         </thead>
         <tbody>
         <%
+            // Loop through users and display their details
             for (UserDTO user : users) {
         %>
         <tr>

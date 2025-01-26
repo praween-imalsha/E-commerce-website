@@ -10,7 +10,7 @@ public class UserDTO {
     private String role;
 
     // Constructor with all fields
-    public UserDTO(int id, String name, String email, String password, String phone, String address, String role) {
+    public UserDTO() {
         this.id = id;
         this.name = name;
         this.email = email;
